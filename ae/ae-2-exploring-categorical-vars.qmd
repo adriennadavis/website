@@ -450,7 +450,7 @@ We have been focusing mostly on counts. Proportional data is also interesting to
       geom_bar(mapping = aes(x = INSERT, # bar chart of ?
                              fill = INSERT), # colored by ?
                position = INSERT)  + # fill
-      lab(y = "INSERT Y AXIS TITLE HERE")
+      labs(y = "INSERT Y AXIS TITLE HERE")
 
 
     ```
